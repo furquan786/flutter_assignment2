@@ -21,6 +21,14 @@ class PlaceCard extends StatelessWidget {
             fit: BoxFit.cover,
             // scale: 0.2,
           ),
+          boxShadow: [
+            BoxShadow(
+              color: Colors.black.withOpacity(0.5),
+              blurRadius: 10,
+              spreadRadius: 0.2,
+              offset: Offset(10, 10),
+            ),
+          ],
         ),
         child: Stack(
           children: [
